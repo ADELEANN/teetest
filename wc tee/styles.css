@@ -1,0 +1,518 @@
+
+    
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.containerend{
+    display: contents;
+    background-color: #e82cfc;
+    height:5%;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #e8d5d5;
+}
+
+/* Definecontainer with a grid */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 50%; /* Two columns, 1fr for content and 200px for the panel */
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container2{
+    border-radius: 10px;
+    
+  height: 100vh;
+            width: 100vw;
+            background-color:#e82cfc;
+           
+   
+}
+.container21{
+    height: 100vh;
+            width: 100vw;
+    background-color:#ffe4e4;
+}
+.container22{
+    height: 100vh;
+            width: 100vw;
+    background-color:#ed1846;
+}
+.introtext{
+   
+    text-align: right;
+}
+.textimg{
+    display: flex;
+    align-items: center; 
+}
+
+/* Style for logo and logo name */
+.logo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: none; /* Customize the color */
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center; /* Center align logo and name vertically */
+    padding: 20px;
+    z-index: 2; /* Ensure it's on top of other elements */
+    font-family: 'Suez One', serif;
+    
+}
+h5{
+    font-family: 'Suez One', serif;
+    font-size: 150%;
+}
+/* Style for the vertical panel links */
+
+    .panel
+    {
+        top: 0;
+        right: 0;
+        width: 100px; /* Customize the panel width */
+        height: 100%; /* Make it full height */
+        display: flex;
+        flex-direction: column;
+        background-color:#ffdc7c; /* Customize the color */
+        position: fixed;
+        top: 0;
+        right: 0; 
+        color: rgb(0, 0, 0); 
+        justify-content: space-between; /* Evenly space the links vertically */
+    
+        
+       
+    align-items: center; /* Center align logo and name vertically */
+    z-index: 3; /* Ensure it's on top of other elements */
+   /* transform: rotate(90deg); /* Rotate the panel 90 degrees */
+}
+.panel1{color: rgb(0, 0, 0);
+    padding: 60%;
+    display: flex;
+     transform: rotate(90deg); /* Rotate the panel 90 degrees */
+     text-align: center;
+     text-decoration: none;
+     font-size: 22px;
+     font-family: 'Raleway', sans-serif;
+
+}
+
+    
+
+
+/* Style for the logo icon */
+.logo-container img {
+    width: 50px; /* Customize the icon size */
+    height: 50px;
+    margin-right: 10px; /* Adjust spacing between icon and name */
+
+}
+/* Style for the alternating content blocks */
+.content-block{
+    background-color: rgb(181, 146, 216); /* Customize the color */
+}
+
+
+/* Style for the alternating content blocks */
+.content-block2{
+    background-size: cover; /* Prevent image distortion */
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-image 0.5s ease; /* Add a smooth transition when changing the background image */
+  background-image: url('53.png'); /* Add the URL of your image here */
+  
+    background-color: #421e1e; /* Customize the color */
+}
+
+
+/* Style for the alternating content blocks */
+.content-block3 {
+    background-color: #742282; /* Customize the color */
+}
+/* Style for the alternating content blocks */
+.content-block4 {
+    background-color: #bceefd; /* Customize the color */
+}
+/* Style for the alternating content blocks */
+.content-block5 {
+    background-color: #0fffab; /* Customize the color */
+}
+/* Style for the alternating content blocks */
+.content-block6 {
+    background-color: #5f6a4b; /* Customize the color */
+}
+/* Style for the alternating content blocks */
+.content-block7 {
+    background-color: #97b263; /* Customize the color */
+}
+/* Style for the alternating content blocks */
+.content-block8 {
+    background-color: #e2e7db; /* Customize the color */
+}
+/* Style for the alternating content blocks */
+.content-block9 {
+    background-color: #a87070; /* Customize the color */
+}
+
+/* Style for the vertical panel */
+.vertical-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px; /* Customize the panel width */
+    height: 100vh; /* Make it full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Evenly space the links vertically */
+    padding: 20px;
+    background-color: #333; /* Customize the color */
+    color: white;
+    transform: rotate(90deg); /* Rotate the panel 90 degrees */
+    transform-origin: top right; /* Rotate from the top-right corner */
+}
+
+/* Style for the vertical panel links */
+.panel-link {
+    margin: 10px 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+
+.content-block {
+    /* Your content block styles */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.intro-text {
+    /* Styles for center-aligned text within the intro-text div */
+    width: 40%;
+    text-align: center;
+}
+
+.circle-frame {
+    /* Styles for center-aligned text within the circle-frame div */
+    width: 100%;
+    text-align: center;
+    color: #8686df;
+    padding: 10%;
+    padding-right: 20%;
+}
+
+.circle {
+    /* Your circle styles */
+    width: 100%;
+    height: 100%;
+    background-color: #b24242;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img {
+    /* Styles for center-aligned image within the circle */
+    max-width: 150%;
+    max-height: 150%;
+    border-radius: 50%;
+}
+
+.text{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left:5% ;
+    padding-right:0% ;
+    text-align: center;
+    color: #e2e7db;
+}
+.textimg h1{
+    font-size: 50px;
+    font-family: 'Suez One', serif;
+}
+.textimg p{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Reduce the width to allow for centering */
+    padding: 0 5%; /* Add some padding to keep images away from page borders */
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+}
+
+.left-image {
+    width: 45%; /* Set the left image to take 40% of the screen width */
+    position: relative;
+}
+
+.left-image img {
+    max-width: 100%;
+    display: block; /* Remove any potential extra space under the image */
+   padding-left: 10%;
+    padding-top:30%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background: none;
+    padding: 10px;
+    
+}
+
+.right-image {
+    width: 30%; /* Set the right image to take 40% of the screen width */
+padding-right: 10%;
+padding-top: 15%;
+
+}
+
+.right-image img {
+    max-width: 100%;
+    display: block; /* Remove any potential extra space under the image */
+}
+
+
+
+
+.content-block4, .content-block5 {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.block-image1 img {
+    max-width: 90%; /* Apply styles to the image in content-block4 */
+    max-height: 90vh;
+    padding: 10px;
+}
+
+.block-image2 img {
+    max-width: 55%; /* Apply different styles to the image in content-block5 */
+    max-height: 70vh;
+    padding: 15px;
+    padding-right: 20%;
+}
+/* Styles for Split Block 6 */
+.split-block-6 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+.split-block-6 .left-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+.split-block-6 .left-image img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.split-block-6 .right-images {
+    padding: 1%;
+    display: flex;
+    flex-direction: column; /* Stack the small images vertically */
+    align-items: flex-end; /* Align to the left */
+}
+
+.split-block-6 .right-images img {
+    width: 40%; /* Adjust the size of the small images */
+    height: 40%;
+    margin: 1%; /* Add spacing between the small images */
+}
+
+.container23{
+    height: 100vh;
+            width: 100vw;
+    background-color:#88f675;
+}
+/* Styles for Split Block 9 */
+.split-block-9 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Styles for the gallery heading */
+.gallery-heading {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    padding: 50px;
+    z-index: 2;
+}
+
+/* Styles for the gallery container */
+.gallery-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Styles for the scrollable gallery container */
+.scroll-gallery {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    scrollbar-width: none; /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide the scrollbar in IE/Edge */
+}
+
+.scroll-gallery::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar in Webkit-based browsers (Chrome, Safari) */
+}
+
+/* Styles for the image gallery */
+.image-gallery {
+    display: flex;
+    width: auto; /* Remove width to prevent distortion */
+    transition: transform 0.5s; /* Smooth scrolling animation */
+}
+
+.image-gallery img {
+    height: 300px; /* Fixed image height */
+    margin-right: 10px; /* Add spacing between images */
+}
+/*side panel*/
+/* The sidepanel menu */
+.sidepanel {
+    height: 100vh; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+  right: 0;
+    background-color: #ffffff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: -3.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color:none;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:none;
+    color: none;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:none;
+  }
+   button{
+    color: transparent;
+    background-color: transparent;
+   }
+   
+   .side-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px; /* Adjust the width as needed */
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
+}
+
+
+.projects {
+    padding: 10px;
+    ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight:normal;
+    font-size: 300%;
+    font-family: 'Suez One', serif;
+padding-top: 0;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.grid-item {
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.grid-item img {
+    max-width: 80%; /* Set a maximum width to ensure images fit within columns */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.label {
+    padding: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+
+}

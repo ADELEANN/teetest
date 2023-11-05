@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #333;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    transition: width 0.3s ease;
+}
+
+.nav-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
+
+.nav-toggle span {
+    height: 4px;
+    width: 30px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 20px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.content {
+    margin-left: 60px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
